@@ -1,0 +1,154 @@
+a{
+  text-decoration: none;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dropdown{
+  position: relative;
+}
+
+.dp-content{
+  position: absolute;
+  background-color: #fff;
+  width: 150px;
+  margin-left: 80px;
+  opacity: 0;
+  transition: .5s;
+  visibility: hidden;
+}
+
+.dp-content a{
+  display: block;
+  color: #1f2226;
+  margin: 5px 0;
+}
+
+.dropdown:hover .dp-content{
+  opacity: 1;
+  visibility: visible;
+}
+
+#first{
+  padding: 2rem 7rem;
+}
+#first span{
+  margin-left: 20px;
+}
+#first i{
+  margin-left: 20px;
+}
+.mainmenu span{
+  font-size: 18px;
+  color: #333333;
+}
+.bottom i{
+  font-size: 16px;
+}
+.bottom a{
+  font-size: 20px;
+  color: #333333;
+}
+#second{
+  background: url(https://htmldemo.net/kofi/kofi/assets/images/hero-slider/home-2/slide-1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 15rem 0;
+}
+.text1 h3{
+  font-size: 24px;
+  color: #fff;
+}
+.text1 h1{
+  font-size: 80px;
+  color: #fff;
+}
+.text1 p{
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#third{
+  padding: 7rem 0;
+}
+.a1{
+  font-size: 16px;
+  color: #c7a17a;
+}
+.text2 h1{
+ font-weight: bold;
+ font-size: 45px;
+ color: #1f2226;
+}
+.text2 hr{
+  width: 19%;
+  border: 4px solid black;
+}
+.boximg img{
+  width: 100%;
+}
+.text3 h2{
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: #1F2226;
+}
+
+.text3 p{
+  color: #c7a17a;
+  font-size: 20px;
+}
+
+.text4 h2{
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: #1F2226;
+}
+
+.text4 p{
+  color: #c7a17a;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.boxright p{
+  font-size: 14px;
+  color: #c7a17a;
+}
+
+.boxright h2{
+  font-size: 28px;
+  color: #1F2226;
+  font-weight: bold;
+}
+
+.boxright input{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.boxright{
+  border: 1px solid #1f2226;
+  padding: 20px 20px;
+}
+
+.boxright button{
+  width: 100%;
+}
+@media(max-width:576px){
+  header .mainmenu{
+    display: none;
+    
+  }
+}
+@media(max-width:576px){
+ .none{
+  display: none;
+ }
+}
